@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.aufgabe1  -multisrs  C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\synwork\aufgabe1_comp.srs  -osyn  C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\synwork\aufgabe1_mult.srs  -log  C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\synlog\aufgabe1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top work.aufgabe1 -multisrs ..\synwork\aufgabe1_comp.srs -osyn ..\synwork\aufgabe1_mult.srs -log ..\synlog\aufgabe1_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\aufgabe1_comp.srs|io:i|time:1731405744|size:2985|exec:0|csum:D9A719F22E2EE0C4714DCD1105A1E004
+file:..\synwork\aufgabe1_mult.srs|io:o|time:1731405745|size:2542|exec:0|csum:
+file:..\synlog\aufgabe1_multi_srs_gen.srr|io:o|time:1731405745|size:1061|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\..\..\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

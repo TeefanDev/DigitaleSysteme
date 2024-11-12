@@ -1,0 +1,98 @@
+<html><body><samp><pre>
+<!@TC:1731405743>
+
+                               Synplify (R) Base 
+
+                  Version V-2023.09M for win64 - Jan 04, 2024 
+
+                    Copyright (c) 1988 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+Hostname:    BOOK-1SJGB9QI3Q
+Date:        Tue Nov 12 10:59:18 2024
+Version:     V-2023.09M
+
+Arguments:   -product synplify_base aufgabe1_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+
+% run_tcl -fg aufgabe1_syn.tcl
+"automatic_compile_point" is unrecognized option for current device
+Implementation not found: synthesis
+TCL script complete: "aufgabe1_syn.tcl"
+% set_option -technology SMARTFUSION2
+% set_option -write_verilog 1
+% set_option -frequency 50.000000
+% project -run  
+log file: "C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\aufgabe1.srr"
+Running: synthesis in foreground
+
+Running aufgabe1_syn|synthesis
+
+Running Flow: compile (Compile) on aufgabe1_syn|synthesis
+# Tue Nov 12 11:02:23 2024
+
+Running Flow: compile_flow (Compile Process) on aufgabe1_syn|synthesis
+# Tue Nov 12 11:02:23 2024
+
+Running: compiler (Compile Input) on aufgabe1_syn|synthesis
+# Tue Nov 12 11:02:23 2024
+Copied C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\synwork\aufgabe1_comp.srs to C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\aufgabe1.srs
+
+compiler completed
+# Tue Nov 12 11:02:25 2024
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on aufgabe1_syn|synthesis
+# Tue Nov 12 11:02:25 2024
+
+multi_srs_gen completed
+# Tue Nov 12 11:02:26 2024
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\synwork\aufgabe1_mult.srs to C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\aufgabe1.srs
+Complete: Compile Process on aufgabe1_syn|synthesis
+
+Running: premap (Premap) on aufgabe1_syn|synthesis
+# Tue Nov 12 11:02:26 2024
+
+premap completed
+# Tue Nov 12 11:02:27 2024
+
+Return Code: 0
+Run Time:00h:00m:01s
+Complete: Compile on aufgabe1_syn|synthesis
+
+Running Flow: map (Map) on aufgabe1_syn|synthesis
+# Tue Nov 12 11:02:27 2024
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on aufgabe1_syn|synthesis
+# Tue Nov 12 11:02:27 2024
+
+</pre></samp></body></html>

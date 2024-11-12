@@ -1,0 +1,30 @@
+Resource Usage Report for aufgabe1 
+
+Mapping to part: m2s005vf400std
+Cell usage:
+hex4x7seg       1 use
+CFG1           12 uses
+
+
+Sequential Cells: 
+SLE            0 uses
+
+DSP Blocks:    0 of 11 (0%)
+
+I/O ports: 26
+I/O primitives: 26
+INBUF          14 uses
+OUTBUF         12 uses
+
+
+Total LUTs:    12
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  0 + 0 + 0 + 0 = 0;
+Total number of LUTs after P&R:  12 + 0 + 0 + 0 = 12;
+

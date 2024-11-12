@@ -1,0 +1,1 @@
+@W: MT246 :"c:\users\stefa\desktop\a_stefan\htwg\7.semester\digitalesysteme\meineuebungen\digitalesysteme\aufgabe1\aufgabe1.vhd":38:3:38:4|Blackbox hex4x7seg is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
