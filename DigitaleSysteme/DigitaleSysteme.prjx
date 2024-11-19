@@ -58,7 +58,7 @@ TIME="1732014419"
 SIZE="300"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe1.vm,syn_vm"
-STATE="ood"
+STATE="utd"
 TIME="1732014418"
 SIZE="8356"
 ENDFILE
@@ -96,6 +96,21 @@ LIST "aufgabe1::work"
 FILE "C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\aufgabe1.vhd,hdl"
 LIST PNRConstraints
 VALUE "C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\aufgabe1.pdc,io_pdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\aufgabe1.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST synthesis_implementations
+VALUE "synthesis"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -196,6 +211,18 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "aufgabe1::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\aufgabe1.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -209,8 +236,11 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+Reports;Reports;0
+ReportsCurrentItem;Generate Bitstream:aufgabe1_generateBitstream.log
+HDL;C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd;0
+Constraint Manager;Constraint Manager;0
+ACTIVEVIEW;C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "aufgabe1::work","C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\aufgabe1.vhd","FALSE","FALSE"
