@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\stefa\desktop\a_stefan\htwg\7.semester\digitalesysteme\meineuebungen\digitalesysteme\aufgabe1\hex4x7seg.vhd":60:8:60:9|Found inferred clock aufgabe1|clk which controls 17 sequential elements including u1.sel[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 

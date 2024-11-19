@@ -13,13 +13,13 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>7</data>
+<data>12</data>
 <report_link name="more">
 <data>C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\synlog\report\aufgabe1_fpga_mapper_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
-<data>1</data>
+<data>2</data>
 <report_link name="more">
 <data>C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\synlog\report\aufgabe1_fpga_mapper_warnings.txt</data>
 </report_link>
@@ -34,13 +34,13 @@ The file contains the job information from mapper to be displayed as part of the
 <data>0h:00m:01s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:02s</data>
+<data>0h:00m:03s</data>
 </info>
 <info name="Peak Memory">
-<data>255MB</data>
+<data>256MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1731405750</data>
+<data type="timestamp">1732014611</data>
 </info>
 </job_info>
 </job_run_status>

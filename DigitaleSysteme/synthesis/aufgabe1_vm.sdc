@@ -1,7 +1,8 @@
-# Written by Synplify Pro version map202309act, Build 044R. Synopsys Run ID: sid1731405747 
+# Written by Synplify Pro version map202309act, Build 044R. Synopsys Run ID: sid1732014607 
 # Top Level Design Parameters 
 
 # Clocks 
+create_clock -period 20.000 -waveform {0.000 10.000} -name {aufgabe1|clk} [get_ports {clk}] 
 
 # Virtual Clocks 
 
@@ -32,6 +33,7 @@
 # set_case Attributes 
 
 # Clock Delay Constraints 
+set_clock_groups -asynchronous -group [get_clocks {aufgabe1|clk}]
 
 # syn_mode Attributes 
 

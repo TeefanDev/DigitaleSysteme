@@ -1,1 +1,2 @@
-@W: MT246 :"c:\users\stefa\desktop\a_stefan\htwg\7.semester\digitalesysteme\meineuebungen\digitalesysteme\aufgabe1\aufgabe1.vhd":38:3:38:4|Blackbox hex4x7seg is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: MT420 |Found inferred clock aufgabe1|clk with period 20.00ns. Please declare a user-defined clock on port clk.

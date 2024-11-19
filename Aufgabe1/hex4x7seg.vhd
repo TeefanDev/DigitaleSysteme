@@ -17,96 +17,107 @@ entity hex4x7seg is
 end hex4x7seg;
 
 architecture struktur of hex4x7seg is
-  signal t                  : std_logic;
-  signal modulo_4_counter   : std_logic_vector(1 downto 0)  := "00";
-  signal modulo_214_counter : std_logic_vector(13 downto 0) := (others => '0');
-  signal seg_sel            : std_logic_vector(3 downto 0);
-  signal en: std_logic := '0';
+    -- Definition of used signals and constants
 
-begin
+    CONSTANT RES:   std_logic_vector := "11111111111111";
+    SIGNAL   reg:   std_logic_vector(13 DOWNTO 0);
+    SIGNAL strb:    std_logic;
+    SIGNAL sel:     std_logic_vector(1 DOWNTO 0);
+    SIGNAL cc:      std_logic_vector(3 DOWNTO 0);
+    SIGNAL seg_sel: std_logic_vector(3 DOWNTO 0);
 
-  -- Modulo-2**14-Zaehler
+BEGIN
+    -- Modulo-2^14-Counter
+    p1: PROCESS (rst, clk) IS
+    BEGIN
+        IF rst=RSTDEF THEN
+            strb    <= '0';
+            reg     <= (OTHERS => '1');
+        ELSIF rising_edge(clk) THEN
+            
+            strb <= '0';
 
-  process (clk, rst)
-  begin
-    if rst = RSTDEF then
-      modulo_214_counter <= (others => '0');
-      en                 <= '0';
-    elsif rising_edge(clk) then
-      if modulo_214_counter = "11111111111111" then
-        modulo_214_counter <= (others => '0');
-        en                 <= not en; -- Toggle en signal for modulo-4 counter
-      else
-        modulo_214_counter <= modulo_214_counter + 1;
-      end if;
-    end if;
-  end process;
+            IF reg=RES THEN
+                strb <= '1';                    
+            END IF;
 
-  -- Modulo-4-Zaehler
-  process (clk, rst)
-  begin
-    if rst = RSTDEF then
-      modulo_4_counter <= "00";
-    elsif rising_edge(clk) and en = '1' then
-      if modulo_4_counter = "11" then
-        modulo_4_counter <= "00";
-      else
-        modulo_4_counter <= modulo_4_counter + 1;
-      end if;
-    end if;
-  end process;
+            reg(13 DOWNTO 9)    <= reg(12 DOWNTO 8);
+            reg(8)              <= reg(7) XOR reg(13);
+            reg(7)              <= reg(6);
+            reg(6)              <= reg(5) XOR reg(13);
+            reg(5 DOWNTO 2)     <= reg(4 DOWNTO 1);
+            reg(1)              <= reg(0) XOR reg(13);
+            reg(0)              <= reg(13);
+            
+        END IF;
+    END PROCESS;
+    
+   
+    -- Modulo-4-Counter
+    p2: PROCESS (rst, clk) IS 
+    BEGIN
+    
+        IF rst=RSTDEF THEN
+            sel <= "00";
 
-  -- 1-aus-4-Dekoder als Phasengenerator
+        ELSIF rising_edge(clk) THEN
+            IF sel="11" THEN
+                IF strb='1' THEN
+                    sel <= "00";
+                END IF;
+            ELSE
+                sel <= sel + strb;
+            END IF;
+        END IF;
 
-  process (rst, modulo_4_counter)
-  begin
-    ena <= "0001" when modulo_4_counter = "00" else
-      "0010" when modulo_4_counter = "01" else
-      "0100" when modulo_4_counter = "10" else
-      "1000";
-  end process;
+    END PROCESS;
+    
 
-  -- 1-aus-4-Multiplexer
-  process (modulo_4_counter)
-  begin
-    if modulo_4_counter = "00" then
-      t <= dpin(0);
-    elsif modulo_4_counter = "01" then
-      t <= dpin(1);
-    elsif modulo_4_counter = "10" then
-      t <= dpin(2);
-    else
-      t <= dpin(3);
-    end if;
+    -- 1-aus-4-Dekoder als Phasengenerator
+    WITH sel SELECT
+        cc <=   "0001" WHEN "00",
+                "0010" WHEN "01",
+                "0100" WHEN "10",
+                "1000" WHEN "11",
+                "1111" WHEN OTHERS;
+        ena <= cc   WHEN rst/=RSTDEF
+                    ELSE (OTHERS => '0');
+    
+       
+    -- 1-aus-4-Multiplexer
+    WITH sel SELECT
+        dp <=   dpin(0) WHEN "00",
+                dpin(1) WHEN "01",
+                dpin(2) WHEN "10",
+                dpin(3) WHEN OTHERS;
 
-    dp <= t;
-  end process;
 
-  -- 7-aus-4-Dekoder
-  with seg_sel select
-    seg <= "1111110" when "0000",
-    "0000110" when "0001",
-    "1101101" when "0010",
-    "1111001" when "0011",
-    "0110011" when "0100",
-    "1011011" when "0101",
-    "1011111" when "0110",
-    "1110000" when "0111",
-    "1111111" when "1000",
-    "1111011" when "1001",
-    "1110111" when "1010",
-    "0011111" when "1011",
-    "1001110" when "1100",
-    "0111101" when "1101",
-    "1001111" when "1110",
-    "1000111" when others;
+    -- 1-aus-4-Bit-Multiplexer
+    WITH sel SELECT
+		seg_sel <=  data( 3 downto 0 ) when "00",        -- right
+                    data( 7 downto 4 ) when "01",        -- second from right
+                    data(11 downto 8 ) when "10",        -- second from left
+                    data(15 downto 12) when others;      -- left
+        
 
-  -- 1-aus-4 4 Bit-Multiplexer
+    -- 7-aus-4-Dekoder
+    WITH seg_sel SELECT
+        seg <=  "0111111" WHEN "0000",  -- 0
+                "0000110" WHEN "0001",  -- 1
+                "1011011" WHEN "0010",  -- 2
+                "1001111" WHEN "0011",  -- 3
+                "1100110" WHEN "0100",  -- 4
+                "1101101" WHEN "0101",  -- 5
+                "1111101" WHEN "0110",  -- 6
+                "0000111" WHEN "0111",  -- 7
+                "1111111" WHEN "1000",  -- 8
+                "1101111" WHEN "1001",  -- 9
+                "1110111" WHEN "1010",  -- A
+                "1111100" WHEN "1011",  -- B
+                "0111001" WHEN "1100",  -- C
+                "1011110" WHEN "1101",  -- D
+                "1111001" WHEN "1110",  -- E
+                "1110001" WHEN "1111",  -- F
+                "0000000" WHEN OTHERS;  -- default    
 
-  with modulo_4_counter select
-    seg_sel <= data(3 downto 0) when "00", -- rechte Anzeige
-    data(7 downto 4) when "01", -- zweite von rechts
-    data(11 downto 8) when "10", -- zweite von links
-    data(15 downto 12) when others; -- linke Anzeige
-
-end struktur;
+END struktur;

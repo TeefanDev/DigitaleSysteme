@@ -1,11 +1,11 @@
-@P:  Worst Slack : NA
-@P:  System - Estimated Frequency : NA
-@P:  System - Requested Frequency : 50.0 MHz
-@P:  System - Estimated Period : NA
-@P:  System - Requested Period : 20.000
-@P:  System - Slack : NA
+@P:  Worst Slack : 17.956
+@P:  aufgabe1|clk - Estimated Frequency : 489.3 MHz
+@P:  aufgabe1|clk - Requested Frequency : 50.0 MHz
+@P:  aufgabe1|clk - Estimated Period : 2.044
+@P:  aufgabe1|clk - Requested Period : 20.000
+@P:  aufgabe1|clk - Slack : 17.956
 @P: aufgabe1 Part : m2s005vf400std
-@P: aufgabe1 Register bits  : 0 
+@P: aufgabe1 Register bits  : 17 
 @P: aufgabe1 DSP Blocks  : 0
 @P: aufgabe1 I/O primitives : 26
 @P:  CPU Time : 0h:00m:01s

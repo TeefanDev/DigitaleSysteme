@@ -32,23 +32,24 @@ Synopsys VHDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 0
 
 @N|Running in 64-bit mode
 @N:"C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\aufgabe1.vhd":5:7:5:14|Top entity is set to aufgabe1.
+File C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\aufgabe1.vhd'.
 VHDL syntax check successful!
+File C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd changed - recompiling
 @N: CD231 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\aufgabe1.vhd":5:7:5:14|Synthesizing work.aufgabe1.struktur.
-@N: CD630 :"C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd":6:7:6:15|Synthesizing work.hex4x7seg.struktur.
-@W: CD286 :"C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd":6:7:6:15|Creating black box for empty architecture hex4x7seg 
+@N: CD630 :"C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd":5:7:5:15|Synthesizing work.hex4x7seg.struktur.
 Post processing for work.hex4x7seg.struktur
 Running optimization stage 1 on hex4x7seg .......
-Finished optimization stage 1 on hex4x7seg (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on hex4x7seg (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
 Post processing for work.aufgabe1.struktur
 Running optimization stage 1 on aufgabe1 .......
-Finished optimization stage 1 on aufgabe1 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on aufgabe1 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on hex4x7seg .......
-Finished optimization stage 2 on hex4x7seg (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 2 on hex4x7seg (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on aufgabe1 .......
-Finished optimization stage 2 on aufgabe1 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 2 on aufgabe1 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
@@ -56,12 +57,12 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 94MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Nov 12 11:02:24 2024
+# Tue Nov 19 12:10:03 2024
 
 ###########################################################]
 ###########################################################[
@@ -81,13 +82,14 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
 
 @N|Running in 64-bit mode
+File C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Nov 12 11:02:24 2024
+# Tue Nov 19 12:10:04 2024
 
 ###########################################################]
 
@@ -97,11 +99,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 30MB peak: 31MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 23MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Nov 12 11:02:24 2024
+# Tue Nov 19 12:10:04 2024
 
 ###########################################################]

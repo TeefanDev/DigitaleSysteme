@@ -19,7 +19,7 @@ The file contains the job information from mapper to be displayed as part of the
 </report_link>
 </info>
 <info name="Warnings">
-<data>0</data>
+<data>1</data>
 <report_link name="more">
 <data>C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\synlog\report\aufgabe1_premap_warnings.txt</data>
 </report_link>
@@ -31,7 +31,7 @@ The file contains the job information from mapper to be displayed as part of the
 </report_link>
 </info>
 <info name="CPU Time">
-<data>0h:00m:00s</data>
+<data>0h:00m:01s</data>
 </info>
 <info name="Real Time">
 <data>0h:00m:01s</data>
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>253MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1731405747</data>
+<data type="timestamp">1732014607</data>
 </info>
 </job_info>
 </job_run_status>

@@ -20,13 +20,28 @@ Part:			M2S005VF400STD (Microchip)
 ########   Utilization report for  Top level view:   aufgabe1   ########
 ========================================================================
 
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block aufgabe1:	17 (22.37 % Utilization)
+
+
 COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           12                 100 %                
-BLACK BOX     1                  100 %                
-======================================================
-Total COMBINATIONAL LOGIC in the block aufgabe1:	13 (31.71 % Utilization)
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      27                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block aufgabe1:	27 (35.53 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block aufgabe1:	2 (2.63 % Utilization)
 
 
 IO PADS
@@ -34,7 +49,27 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       26                 100 %                
 =================================================
-Total IO PADS in the block aufgabe1:	26 (63.41 % Utilization)
+Total IO PADS in the block aufgabe1:	26 (34.21 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   hex4x7seg   ########
+Instance path:   aufgabe1.hex4x7seg                            
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block aufgabe1.hex4x7seg:	17 (22.37 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      27                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block aufgabe1.hex4x7seg:	27 (35.53 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

@@ -12,7 +12,7 @@ Hostname: BOOK-1SJGB9QI3Q
 
 Implementation : synthesis
 
-# Written on Tue Nov 12 11:02:27 2024
+# Written on Tue Nov 19 12:10:07 2024
 
 ##### DESIGN INFO #######################################################
 
@@ -34,9 +34,10 @@ Found 0 issues in 0 out of 0 constraints
 Clock Relationships
 *******************
 
-Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
------------------------------------------------------------------------------------------------------------------------------------
-===================================================================================================================================
+Starting         Ending           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------
+aufgabe1|clk     aufgabe1|clk     |     20.000           |     No paths         |     No paths         |     No paths                         
+=============================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -48,7 +49,6 @@ p:btn[1]
 p:btn[2]
 p:btn[3]
 p:btn[4]
-p:clk
 p:digi[1]
 p:digi[2]
 p:digi[3]

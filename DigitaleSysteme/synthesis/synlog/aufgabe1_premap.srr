@@ -1,4 +1,4 @@
-# Tue Nov 12 11:02:26 2024
+# Tue Nov 19 12:10:05 2024
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -16,10 +16,10 @@ Implementation : synthesis
 Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 200MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 200MB)
 
 Reading constraint file: C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\designer\aufgabe1\synthesis.fdc
 @L: C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\aufgabe1_scck.rpt 
@@ -50,49 +50,53 @@ Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 249MB)
 
 
-Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 249MB)
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 249MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=10 on top level netlist aufgabe1 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
 
 Clock Summary
 ******************
 
-          Start     Requested     Requested     Clock     Clock     Clock
-Level     Clock     Frequency     Period        Type      Group     Load 
--------------------------------------------------------------------------
-=========================================================================
+          Start            Requested     Requested     Clock        Clock          Clock
+Level     Clock            Frequency     Period        Type         Group          Load 
+----------------------------------------------------------------------------------------
+0 -       aufgabe1|clk     50.0 MHz      20.000        inferred     (multiple)     17   
+========================================================================================
 
 
 
 Clock Load Summary
 ***********************
 
-          Clock     Source     Clock Pin       Non-clock Pin     Non-clock Pin
-Clock     Load      Pin        Seq Example     Seq Example       Comb Example 
-------------------------------------------------------------------------------
-==============================================================================
+                 Clock     Source        Clock Pin          Non-clock Pin     Non-clock Pin
+Clock            Load      Pin           Seq Example        Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------
+aufgabe1|clk     17        clk(port)     u1.reg[13:0].C     -                 -            
+===========================================================================================
+
+@W: MT530 :"c:\users\stefa\desktop\a_stefan\htwg\7.semester\digitalesysteme\meineuebungen\digitalesysteme\aufgabe1\hex4x7seg.vhd":60:8:60:9|Found inferred clock aufgabe1|clk which controls 17 sequential elements including u1.sel[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\aufgabe1.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 253MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 253MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Nov 12 11:02:27 2024
+# Tue Nov 19 12:10:07 2024
 
 ###########################################################]
