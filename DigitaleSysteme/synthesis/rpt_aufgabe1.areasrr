@@ -25,15 +25,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      17                 100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block aufgabe1:	17 (22.97 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block aufgabe1:	17 (22.37 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      25                 100 %                
+CFG      27                 100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block aufgabe1:	25 (33.78 % Utilization)
+Total COMBINATIONAL LOGIC in the block aufgabe1:	27 (35.53 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -41,7 +41,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block aufgabe1:	2 (2.70 % Utilization)
+Total GLOBAL BUFFERS in the block aufgabe1:	2 (2.63 % Utilization)
 
 
 IO PADS
@@ -49,7 +49,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       26                 100 %                
 =================================================
-Total IO PADS in the block aufgabe1:	26 (35.14 % Utilization)
+Total IO PADS in the block aufgabe1:	26 (34.21 % Utilization)
 
 ---------------------------------------------------------------
 ########   Utilization report for  cell:   hex4x7seg   ########
@@ -61,15 +61,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      17                 100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block aufgabe1.hex4x7seg:	17 (22.97 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block aufgabe1.hex4x7seg:	17 (22.37 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      25                 100 %                
+CFG      27                 100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block aufgabe1.hex4x7seg:	25 (33.78 % Utilization)
+Total COMBINATIONAL LOGIC in the block aufgabe1.hex4x7seg:	27 (35.53 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

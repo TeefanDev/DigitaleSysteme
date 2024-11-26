@@ -1,28 +1,28 @@
 {
 "Synplify Pro (R) Job Log" : {
-	"Date" : "10:01:23    26-Nov-2024",
+	"Date" : "10:45:18    26-Nov-2024",
 	"Working Directory" : "C:/Users/stefa/Desktop/A_Stefan/HTWG/7.Semester/DigitaleSysteme/MeineUebungen/DigitaleSysteme/DigitaleSysteme/synthesis",
 	"Install" : "C:/Microchip/Libero_SoC_v2024.1/SynplifyPro"
 },
 "synthesis" :{
    "Job Flow" : "Sequential",
-   "Start Time" : "10:01:15",
-   "Runtime" : "08s",
+   "Start Time" : "10:45:09",
+   "Runtime" : "09s",
    "Executable Run Time" : "07s",
    "synthesis" : {
       "Job Flow" : "Sequential",
-      "Start Time" : "10:01:15",
-      "Runtime" : "08s",
+      "Start Time" : "10:45:09",
+      "Runtime" : "09s",
       "Executable Run Time" : "07s",
       "compile" : {
          "Job Flow" : "Sequential",
-         "Start Time" : "10:01:15",
-         "Runtime" : "04s",
+         "Start Time" : "10:45:09",
+         "Runtime" : "05s",
          "Executable Run Time" : "03s",
          "compile_flow" : {
             "Job Flow" : "Sequential",
-            "Start Time" : "10:01:15",
-            "Runtime" : "02s",
+            "Start Time" : "10:45:09",
+            "Runtime" : "03s",
             "Executable Run Time" : "01s",
             "compiler" : {
                "executable" : "bin64/c_hdl.exe",
@@ -30,7 +30,7 @@
                "Run State" : "Complete",
                "Return Code" : "0",
                "Has Errors" : "no",
-               "Run Start Time" : "10:01:15",
+               "Run Start Time" : "10:45:09",
                "Run Time" : "02s",
                "Exe Run Time" : "01s",
                "Memory Usage" : "-",
@@ -42,8 +42,8 @@
                "Run State" : "Complete",
                "Return Code" : "0",
                "Has Errors" : "no",
-               "Run Start Time" : "10:01:17",
-               "Run Time" : "00s",
+               "Run Start Time" : "10:45:11",
+               "Run Time" : "01s",
                "Exe Run Time" : "00s",
                "Memory Usage" : "-",
                "Up-to-date (run skipped)" : "no"
@@ -55,7 +55,7 @@
             "Run State" : "Complete",
             "Return Code" : "1",
             "Has Errors" : "no",
-            "Run Start Time" : "10:01:17",
+            "Run Start Time" : "10:45:12",
             "Run Time" : "02s",
             "Exe Run Time" : "02s",
             "Memory Usage" : "-",
@@ -64,7 +64,7 @@
       },
       "map" : {
          "Job Flow" : "Sequential",
-         "Start Time" : "10:01:19",
+         "Start Time" : "10:45:14",
          "Runtime" : "04s",
          "Executable Run Time" : "04s",
          "fpga_mapper" : {
@@ -73,7 +73,7 @@
             "Run State" : "Complete",
             "Return Code" : "1",
             "Has Errors" : "no",
-            "Run Start Time" : "10:01:19",
+            "Run Start Time" : "10:45:14",
             "Run Time" : "04s",
             "Exe Run Time" : "04s",
             "Memory Usage" : "-",

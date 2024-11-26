@@ -8,7 +8,7 @@
 
 # Family: SmartFusion2 , Die: M2S005 , Package: 144 TQ , Speed grade: STD 
 
-# Date generated: Tue Nov 26 10:01:40 2024 
+# Date generated: Tue Nov 26 10:45:35 2024 
 
 
 #
@@ -46,49 +46,51 @@ set_io sw\[8\] -DIRECTION INPUT -pinname 57 -fixed no
 # Core cell constraints
 #
 
-set_location rst_ibuf_RNIUUM54 -fixed no 221 30
-set_location u1/reg\[3\] -fixed no 103 4
-set_location clk_ibuf_RNIVTI21/U0_RGB1 -fixed no 218 3
-set_location u1/reg\[0\] -fixed no 84 4
-set_location u1/ena\[3\] -fixed no 101 3
-set_location u1/p1.reg_8 -fixed no 90 3
-set_location u1/reg\[4\] -fixed no 94 4
-set_location u1/sel_RNO\[1\] -fixed no 98 3
-set_location u1/p1.reg_2\[0\] -fixed no 84 3
-set_location rst_ibuf_RNIUUM54/U0_RGB1 -fixed no 219 3
-set_location clk_ibuf_RNIVTI21 -fixed no 219 30
-set_location u1/seg_1_7_1_.N_25_i -fixed no 115 3
-set_location u1/seg_sel_3\[0\] -fixed no 111 3
-set_location u1/seg_1_7_1_.m10 -fixed no 116 3
-set_location u1/reg\[5\] -fixed no 93 4
-set_location u1/reg\[2\] -fixed no 105 4
-set_location u1/seg_1_7_1_.N_7_i -fixed no 110 3
-set_location u1/strb -fixed no 92 4
-set_location u1/reg\[8\] -fixed no 86 4
-set_location u1/sel_RNO\[0\] -fixed no 99 3
-set_location u1/seg_1_7_1_.m18 -fixed no 114 3
-set_location u1/seg_sel_3\[2\] -fixed no 119 3
-set_location u1/sel\[1\] -fixed no 98 4
-set_location u1/reg\[12\] -fixed no 87 4
-set_location u1/seg_sel_3\[3\] -fixed no 117 3
-set_location u1/seg_1_7_1_.N_22_i -fixed no 118 3
-set_location u1/seg_sel_3\[1\] -fixed no 112 3
-set_location u1/seg_1_7_1_.N_27_i -fixed no 109 3
-set_location u1/reg\[6\] -fixed no 90 4
-set_location u1/reg\[13\] -fixed no 88 4
-set_location u1/reg\[10\] -fixed no 89 4
-set_location u1/ena\[2\] -fixed no 96 3
-set_location u1/reg\[7\] -fixed no 95 4
-set_location u1/p1.reg -fixed no 92 3
-set_location u1/seg_1_7_1_.m15 -fixed no 108 3
-set_location u1/reg\[1\] -fixed no 101 4
-set_location u1/ena\[1\] -fixed no 97 3
+set_location u1/strb -fixed no 86 4
+set_location u1/seg_1_7_1_.m18 -fixed no 156 3
+set_location u1/seg_1_7_1_.N_22_i -fixed no 166 3
+set_location u1/seg_1_7_1_.N_25_i -fixed no 161 3
+set_location u1/reg\[2\] -fixed no 101 4
+set_location u1/sel\[0\] -fixed no 104 4
+set_location u1/reg\[0\] -fixed no 102 4
+set_location u1/p1.reg_8\[8\] -fixed no 84 3
+set_location u1/dp_3_2 -fixed no 100 3
+set_location u1/sel_RNO\[0\] -fixed no 104 3
+set_location u1/seg_1_7_1_.N_7_i -fixed no 164 3
+set_location u1/sel\[1\] -fixed no 103 4
+set_location u1/p1.reg_6 -fixed no 85 3
 set_location u1/ena\[0\] -fixed no 102 3
-set_location u1/reg\[9\] -fixed no 85 4
-set_location u1/p1.reg_6 -fixed no 91 3
-set_location u1/dp_3_2_1_0 -fixed no 100 3
-set_location u1/p1.reg_9 -fixed no 85 3
-set_location u1/reg\[11\] -fixed no 91 4
-set_location u1/p1.reg_7 -fixed no 103 3
-set_location u1/sel\[0\] -fixed no 99 4
-set_location u1/dp_3_2 -fixed no 104 3
+set_location u1/p1.reg -fixed no 86 3
+set_location u1/ena\[2\] -fixed no 99 3
+set_location u1/seg_1_7_1_.N_27_i -fixed no 163 3
+set_location rst_ibuf_RNIUUM54/U0_RGB1 -fixed no 218 3
+set_location u1/reg\[10\] -fixed no 88 4
+set_location u1/reg\[9\] -fixed no 94 4
+set_location u1/ena\[3\] -fixed no 97 3
+set_location u1/seg_sel_3\[1\] -fixed no 167 3
+set_location u1/seg_sel_3\[2\] -fixed no 162 3
+set_location u1/reg\[1\] -fixed no 98 4
+set_location clk_ibuf_RNIVTI21/U0_RGB1 -fixed no 219 3
+set_location u1/dp_3_2_1_0 -fixed no 105 3
+set_location u1/reg\[4\] -fixed no 87 4
+set_location u1/p1.reg_8\[1\] -fixed no 98 3
+set_location u1/p1.reg_8\[6\] -fixed no 91 3
+set_location u1/seg_sel_3\[0\] -fixed no 159 3
+set_location u1/reg\[3\] -fixed no 96 4
+set_location clk_ibuf_RNIVTI21 -fixed no 221 30
+set_location u1/reg\[13\] -fixed no 85 4
+set_location u1/reg\[8\] -fixed no 84 4
+set_location u1/seg_1_7_1_.m10 -fixed no 157 3
+set_location u1/p1.reg_8 -fixed no 90 3
+set_location u1/reg\[6\] -fixed no 91 4
+set_location u1/p1.reg_9 -fixed no 94 3
+set_location u1/p1.reg_7 -fixed no 96 3
+set_location u1/sel_RNO\[1\] -fixed no 103 3
+set_location u1/reg\[11\] -fixed no 93 4
+set_location u1/seg_sel_3\[3\] -fixed no 158 3
+set_location u1/seg_1_7_1_.m15 -fixed no 160 3
+set_location u1/reg\[5\] -fixed no 90 4
+set_location rst_ibuf_RNIUUM54 -fixed no 219 30
+set_location u1/reg\[7\] -fixed no 89 4
+set_location u1/reg\[12\] -fixed no 92 4
+set_location u1/ena\[1\] -fixed no 101 3

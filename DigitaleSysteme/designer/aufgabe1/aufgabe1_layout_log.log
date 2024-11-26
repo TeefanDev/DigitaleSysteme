@@ -25,7 +25,7 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 2024.1.0 
-Design: aufgabe1                        Started: Tue Nov 26 10:01:34 2024
+Design: aufgabe1                        Started: Tue Nov 26 10:45:29 2024
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -41,32 +41,32 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: aufgabe1                        
-Finished: Tue Nov 26 10:01:36 2024
+Finished: Tue Nov 26 10:45:31 2024
 Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
-Total Memory Usage: 97.7 Mbytes
+Total Memory Usage: 97.8 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\designer\aufgabe1\aufgabe1Started: Tue Nov 26 10:01:38 2024
+Design: C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\designer\aufgabe1\aufgabe1Started: Tue Nov 26 10:45:33 2024
 
 
 Router completed successfully.
 
 Design: C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\designer\aufgabe1\aufgabe1
-Finished: Tue Nov 26 10:01:40 2024
+Finished: Tue Nov 26 10:45:35 2024
 Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
-Total Memory Usage: 258.5 Mbytes
+Total Memory Usage: 258.7 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 25   | 6060  | 0.41       |
+| 4LUT          | 27   | 6060  | 0.45       |
 | DFF           | 17   | 6060  | 0.28       |
 | I/O Register  | 0    | 252   | 0.00       |
-| Logic Element | 33   | 6060  | 0.54       |
+| Logic Element | 32   | 6060  | 0.53       |
 +---------------+------+-------+------------+
 
 I/O Placement

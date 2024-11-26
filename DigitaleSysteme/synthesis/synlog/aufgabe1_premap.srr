@@ -1,4 +1,4 @@
-# Tue Nov 26 10:01:17 2024
+# Tue Nov 26 10:45:12 2024
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -40,7 +40,7 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 200MB)
 
 NConnInternalConnection caching is on
-@W: FX1172 :"c:\users\stefa\desktop\a_stefan\htwg\7.semester\digitalesysteme\meineuebungen\digitalesysteme\aufgabe1\hex4x7seg.vhd":48:8:48:9|User-specified initial value defined for instance u1.sel[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\stefa\desktop\a_stefan\htwg\7.semester\digitalesysteme\meineuebungen\digitalesysteme\aufgabe1\hex4x7seg.vhd":54:8:54:9|User-specified initial value defined for instance u1.sel[1:0] is being ignored due to limitations in architecture. 
 @W: FX1172 :"c:\users\stefa\desktop\a_stefan\htwg\7.semester\digitalesysteme\meineuebungen\digitalesysteme\aufgabe1\hex4x7seg.vhd":33:8:33:9|User-specified initial value defined for instance u1.strb is being ignored due to limitations in architecture. 
 @W: FX1172 :"c:\users\stefa\desktop\a_stefan\htwg\7.semester\digitalesysteme\meineuebungen\digitalesysteme\aufgabe1\hex4x7seg.vhd":33:8:33:9|User-specified initial value defined for instance u1.reg[13:0] is being ignored due to limitations in architecture. 
 
@@ -50,7 +50,7 @@ Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 249MB)
 
 
-Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 249MB)
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 249MB)
 
 
 Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 249MB)
@@ -81,25 +81,25 @@ Clock            Load      Pin           Seq Example        Seq Example       Co
 aufgabe1|clk     17        clk(port)     u1.reg[13:0].C     -                 -            
 ===========================================================================================
 
-@W: MT530 :"c:\users\stefa\desktop\a_stefan\htwg\7.semester\digitalesysteme\meineuebungen\digitalesysteme\aufgabe1\hex4x7seg.vhd":48:8:48:9|Found inferred clock aufgabe1|clk which controls 17 sequential elements including u1.sel[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\stefa\desktop\a_stefan\htwg\7.semester\digitalesysteme\meineuebungen\digitalesysteme\aufgabe1\hex4x7seg.vhd":54:8:54:9|Found inferred clock aufgabe1|clk which controls 17 sequential elements including u1.sel[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\aufgabe1.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 251MB peak: 251MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 252MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 251MB peak: 252MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 252MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 251MB peak: 252MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 253MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 253MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Nov 26 10:01:19 2024
+# Tue Nov 26 10:45:14 2024
 
 ###########################################################]

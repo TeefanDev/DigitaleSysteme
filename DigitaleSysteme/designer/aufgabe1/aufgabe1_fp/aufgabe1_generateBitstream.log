@@ -1,13 +1,13 @@
 Software Version: 2024.1.0.3
 Opened 'C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\designer\aufgabe1\aufgabe1_fp\aufgabe1.pro'
 PDB file 'C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\designer\aufgabe1\aufgabe1.pdb' has been loaded successfully.
-DESIGN : aufgabe1;  CHECKSUM : D8B2;  PDB_VERSION : 1.9
+DESIGN : aufgabe1;  CHECKSUM : 3D7D;  PDB_VERSION : 1.9
 Info: Programming Interface selected is JTAG.
 File/Folder 'C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\designer\aufgabe1\aufgabe1.ppd' will be overwritten.
 Successfully exported PPD file for currently secured device: 'C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\designer\aufgabe1\aufgabe1.ppd'; file programs Fabric.
-Fabric component bitstream digest: 1792f3724af650a43c92cc4e8ee5d60940c4d0b14711f9192a9e522903646103
-Entire bitstream digest: c15b99fb108995242e55656fe635fdff25e0a3c2af3e1726608e9482cd3f5b81
-Finished: Tue Nov 26 10:02:17 2024 (Elapsed time 00:00:05)
+Fabric component bitstream digest: a13b75939ddd0ca426152af0b56967c9e2b15c99fc3013ef953938a675c579b1
+Entire bitstream digest: 6c352608d45341aa94f2f66b4c9c5e965c3194077cfe88f57001e64729840aa9
+Finished: Tue Nov 26 10:45:58 2024 (Elapsed time 00:00:04)
 
 Project saved.
 Project closed.

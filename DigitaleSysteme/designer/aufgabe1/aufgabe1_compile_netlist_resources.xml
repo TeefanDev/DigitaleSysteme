@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Tue Nov 26 10:01:27 2024
+<text>Date: Tue Nov 26 10:45:22 2024
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -106,9 +106,9 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>25</cell>
+ <cell>27</cell>
  <cell>6060</cell>
- <cell>0.41</cell>
+ <cell>0.45</cell>
 </row>
 <row>
  <cell>DFF</cell>
@@ -204,7 +204,7 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>25</cell>
+ <cell>27</cell>
  <cell>17</cell>
 </row>
 <row>
@@ -224,7 +224,7 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>25</cell>
+ <cell>27</cell>
  <cell>17</cell>
 </row>
 </table>
@@ -296,12 +296,12 @@
 <row>
  <cell>17</cell>
  <cell>INT_NET</cell>
- <cell>Net   : rst_arst</cell>
+ <cell>Net   : clk_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: rst_ibuf_RNIUUM54/U0_RGB1</cell>
+ <cell>Driver: clk_ibuf_RNIVTI21/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -311,12 +311,12 @@
 <row>
  <cell>17</cell>
  <cell>INT_NET</cell>
- <cell>Net   : clk_c</cell>
+ <cell>Net   : rst_arst</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: clk_ibuf_RNIVTI21/U0_RGB1</cell>
+ <cell>Driver: rst_ibuf_RNIUUM54/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -410,17 +410,7 @@
  <cell>Driver: rst_ibuf</cell>
 </row>
 <row>
- <cell>3</cell>
- <cell>INT_NET</cell>
- <cell>Net   : u1/reg_Z_Z[7]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: u1/reg[7]</cell>
-</row>
-<row>
- <cell>2</cell>
+ <cell>5</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u1/reg_Z_Z[13]</cell>
 </row>
@@ -438,6 +428,16 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: u1/reg[12]</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : u1/reg_Z_Z[11]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: u1/reg[11]</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -518,17 +518,7 @@
  <cell>Driver: rst_ibuf</cell>
 </row>
 <row>
- <cell>3</cell>
- <cell>INT_NET</cell>
- <cell>Net   : u1/reg_Z_Z[7]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: u1/reg[7]</cell>
-</row>
-<row>
- <cell>2</cell>
+ <cell>5</cell>
  <cell>INT_NET</cell>
  <cell>Net   : u1/reg_Z_Z[13]</cell>
 </row>
@@ -546,6 +536,16 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: u1/reg[12]</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : u1/reg_Z_Z[11]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: u1/reg[11]</cell>
 </row>
 </table>
 </doc>

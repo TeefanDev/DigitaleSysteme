@@ -15,13 +15,13 @@ Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan
 
 Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-11       C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd (2024-11-26 09:56:49, 2024-11-26 10:01:03)
+11       C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd (2024-11-26 10:37:29, 2024-11-26 10:43:47)
 
 *******************************************************************
 Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
 2        work.hex4x7seg.struktur may have changed because the following files changed:
-                        C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd (2024-11-26 09:56:49, 2024-11-26 10:01:03) <-- (architecture and entity definition)
+                        C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd (2024-11-26 10:37:29, 2024-11-26 10:43:47) <-- (architecture and entity definition)
 
 *******************************************************************
 Unmodified files: 11

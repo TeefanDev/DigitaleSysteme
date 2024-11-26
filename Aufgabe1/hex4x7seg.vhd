@@ -27,7 +27,7 @@ architecture struktur of hex4x7seg is
 
 
 BEGIN
-    -- Modulo-2^14-Counter
+    -- Modulo-2^14-Counter (16383)
     p1: process (rst, clk) is
     begin
         if rst = RSTDEF then
@@ -38,7 +38,13 @@ BEGIN
             if reg = RES then
                 strb <= '1';
             end if;
-            reg <= reg(12 downto 0) & (reg(13) xor reg(7));
+            reg(13 DOWNTO 9)    <= reg(12 DOWNTO 8);
+            reg(8)              <= reg(7) XOR reg(13);
+            reg(7)              <= reg(6);
+            reg(6)              <= reg(5) XOR reg(13);
+            reg(5 DOWNTO 2)     <= reg(4 DOWNTO 1);
+            reg(1)              <= reg(0) XOR reg(13);
+            reg(0)              <= reg(13);
         end if;
     end process;
 
