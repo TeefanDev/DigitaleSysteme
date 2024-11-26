@@ -54,23 +54,28 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\synthesis\aufgabe1.so,so"
 STATE="utd"
-TIME="1732014419"
+TIME="1732016561"
 SIZE="300"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe1.vm,syn_vm"
 STATE="utd"
-TIME="1732014418"
+TIME="1732016561"
 SIZE="8356"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe1_syn.prj,prj"
 STATE="utd"
-TIME="1732014428"
+TIME="1732016572"
 SIZE="2625"
 ENDFILE
 VALUE "<project>\synthesis\aufgabe1_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1732014418"
+TIME="1732016561"
 SIZE="966"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1732610945"
+SIZE="159"
 ENDFILE
 VALUE "C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\aufgabe1.pdc,io_pdc"
 STATE="utd"
@@ -85,8 +90,8 @@ SIZE="2060"
 ENDFILE
 VALUE "C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd,hdl"
 STATE="utd"
-TIME="1732014521"
-SIZE="4056"
+TIME="1732611663"
+SIZE="3415"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -237,10 +242,10 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Generate Bitstream:aufgabe1_generateBitstream.log
-HDL;C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd;0
+ReportsCurrentItem;Run Programming Action:aufgabe1_PROGRAM.log
 Constraint Manager;Constraint Manager;0
-ACTIVEVIEW;C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd
+HDL;C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\hex4x7seg.vhd;0
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "aufgabe1::work","C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\Aufgabe1\aufgabe1.vhd","FALSE","FALSE"

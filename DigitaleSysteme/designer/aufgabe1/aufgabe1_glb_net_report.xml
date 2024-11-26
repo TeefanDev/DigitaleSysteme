@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Tue Nov 19 12:10:23 2024
+<text>Date: Tue Nov 26 10:01:36 2024
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -19,14 +19,14 @@
  <cell>1</cell>
  <cell>GB[1] </cell>
  <cell>(219, 30)</cell>
- <cell>rst_ibuf_RNIUUM54/U0_YNn_GSouth</cell>
+ <cell>clk_ibuf_RNIVTI21/U0_YNn_GSouth</cell>
  <cell>17</cell>
 </row>
 <row>
  <cell>2</cell>
  <cell>GB[3] </cell>
  <cell>(221, 30)</cell>
- <cell>clk_ibuf_RNIVTI21/U0_YNn_GSouth</cell>
+ <cell>rst_ibuf_RNIUUM54/U0_YNn_GSouth</cell>
  <cell>17</cell>
 </row>
 </table>
@@ -49,27 +49,27 @@
 </header>
 <row>
  <cell>1</cell>
- <cell>rst</cell>
- <cell>53</cell>
- <cell>MSIO93NB4</cell>
- <cell>rst_ibuf/U0/U_IOIN:Y</cell>
- <cell>(162, 1)</cell>
- <cell>GB[1] </cell>
- <cell>rst_c</cell>
- <cell>ROUTED</cell>
- <cell>5</cell>
-</row>
-<row>
- <cell>2</cell>
  <cell>clk</cell>
  <cell>24</cell>
  <cell>MSIOD70PB5/CCC_NE1_CLKI1</cell>
  <cell>clk_ibuf/U0/U_IOIN:Y</cell>
  <cell>(15, 1)</cell>
- <cell>GB[3] </cell>
+ <cell>GB[1] </cell>
  <cell>clk_ibuf_Z</cell>
  <cell>ROUTED</cell>
  <cell>1</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>rst</cell>
+ <cell>53</cell>
+ <cell>MSIO93NB4</cell>
+ <cell>rst_ibuf/U0/U_IOIN:Y</cell>
+ <cell>(162, 1)</cell>
+ <cell>GB[3] </cell>
+ <cell>rst_c</cell>
+ <cell>ROUTED</cell>
+ <cell>5</cell>
 </row>
 </table>
 <text></text>
@@ -107,7 +107,7 @@
  <cell>1</cell>
  <cell>GB[1] </cell>
  <cell>(219, 30)</cell>
- <cell>rst_ibuf_RNIUUM54/U0_YNn_GSouth</cell>
+ <cell>clk_ibuf_RNIVTI21/U0_YNn_GSouth</cell>
  <cell>17</cell>
  <cell> </cell>
  <cell>(218, 3)</cell>
@@ -117,7 +117,7 @@
  <cell>2</cell>
  <cell>GB[3] </cell>
  <cell>(221, 30)</cell>
- <cell>clk_ibuf_RNIVTI21/U0_YNn_GSouth</cell>
+ <cell>rst_ibuf_RNIUUM54/U0_YNn_GSouth</cell>
  <cell>17</cell>
  <cell> </cell>
  <cell>(219, 3)</cell>

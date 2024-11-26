@@ -22,7 +22,7 @@
 Starting:    C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\mbin\synbatch.exe
 Install:     C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 Hostname:    BOOK-1SJGB9QI3Q
-Date:        Tue Nov 19 11:29:28 2024
+Date:        Tue Nov 26 09:49:05 2024
 Version:     V-2023.09M
 
 Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log aufgabe1_syn.tcl
@@ -42,14 +42,33 @@ prepare_readback is not supported in current product.
 auto_infer_blackbox is not supported in current product.
 log file: "C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\aufgabe1.srr"
 Running: synthesis in foreground
-Node-locked synplifypro_actel feature already in use. Only one instance of this feature can be used on this machine.
 
+Running aufgabe1_syn|synthesis
 
+Running Flow: compile (Compile) on aufgabe1_syn|synthesis
+# Tue Nov 26 09:49:05 2024
 
+Running Flow: compile_flow (Compile Process) on aufgabe1_syn|synthesis
+# Tue Nov 26 09:49:05 2024
 
+Running: compiler (Compile Input) on aufgabe1_syn|synthesis
+# Tue Nov 26 09:49:05 2024
+compiler exited with errors
+Job failed on: aufgabe1_syn|synthesis
 
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\synthesis\synlog\aufgabe1_compiler.srr"
+# Tue Nov 26 09:49:05 2024
 
-
-
-
-
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on aufgabe1_syn|synthesis
+Complete: Compile on aufgabe1_syn|synthesis
+Complete: Logic Synthesis on aufgabe1_syn|synthesis
+Error: At line 2 while processing "aufgabe1_syn.tcl"
+2
+TCL script complete: "aufgabe1_syn.tcl"
+TCL script had errors: "aufgabe1_syn.tcl"
+exit status=9
+exit status=9
+License checkin: synplifypro_actel

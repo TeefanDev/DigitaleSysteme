@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "V-2023.09M"
 // Program "Synplify Pro", Mapper "map202309act, Build 044R"
-// Tue Nov 19 12:10:10 2024
+// Tue Nov 26 10:01:22 2024
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -56,39 +56,27 @@ wire rst_c ;
 wire dp_c ;
 wire clk_c ;
 wire rst_arst ;
-wire [13:0] reg_Z;
-wire [8:1] reg_8;
+wire [13:0] reg_Z_Z;
+wire [0:0] reg_2;
 wire [1:0] sel_Z;
-wire [1:0] sel_RNO_Z;
+wire [1:0] sel_3;
 wire [3:0] seg_sel;
 wire strb_Z ;
 wire VCC ;
-wire un1_reg ;
+wire reg_Z ;
 wire GND ;
 wire dp_3_2_1_0_Z ;
-wire un1_reg_6 ;
-wire un1_reg_9 ;
-wire un1_reg_8 ;
-wire un1_reg_7 ;
+wire reg_6 ;
+wire reg_9 ;
+wire reg_8 ;
+wire reg_7 ;
 // @9:33
   SLE strb (
 	.Q(strb_Z),
 	.ADn(VCC),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(un1_reg),
-	.EN(VCC),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @9:33
-  SLE \reg[9]  (
-	.Q(reg_Z[9]),
-	.ADn(GND),
-	.ALn(rst_arst),
-	.CLK(clk_c),
-	.D(reg_Z[8]),
+	.D(reg_Z),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -96,11 +84,11 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[8]  (
-	.Q(reg_Z[8]),
+	.Q(reg_Z_Z[8]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_8[8]),
+	.D(reg_Z_Z[7]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -108,11 +96,11 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[7]  (
-	.Q(reg_Z[7]),
+	.Q(reg_Z_Z[7]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_Z[6]),
+	.D(reg_Z_Z[6]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -120,11 +108,11 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[6]  (
-	.Q(reg_Z[6]),
+	.Q(reg_Z_Z[6]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_8[6]),
+	.D(reg_Z_Z[5]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -132,11 +120,11 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[5]  (
-	.Q(reg_Z[5]),
+	.Q(reg_Z_Z[5]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_Z[4]),
+	.D(reg_Z_Z[4]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -144,11 +132,11 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[4]  (
-	.Q(reg_Z[4]),
+	.Q(reg_Z_Z[4]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_Z[3]),
+	.D(reg_Z_Z[3]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -156,11 +144,11 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[3]  (
-	.Q(reg_Z[3]),
+	.Q(reg_Z_Z[3]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_Z[2]),
+	.D(reg_Z_Z[2]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -168,11 +156,11 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[2]  (
-	.Q(reg_Z[2]),
+	.Q(reg_Z_Z[2]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_Z[1]),
+	.D(reg_Z_Z[1]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -180,11 +168,11 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[1]  (
-	.Q(reg_Z[1]),
+	.Q(reg_Z_Z[1]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_8[1]),
+	.D(reg_Z_Z[0]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -192,35 +180,35 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[0]  (
-	.Q(reg_Z[0]),
+	.Q(reg_Z_Z[0]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_Z[13]),
+	.D(reg_2[0]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
-// @9:60
+// @9:48
   SLE \sel[1]  (
 	.Q(sel_Z[1]),
 	.ADn(VCC),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(sel_RNO_Z[1]),
+	.D(sel_3[1]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
-// @9:60
+// @9:48
   SLE \sel[0]  (
 	.Q(sel_Z[0]),
 	.ADn(VCC),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(sel_RNO_Z[0]),
+	.D(sel_3[0]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -228,11 +216,11 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[13]  (
-	.Q(reg_Z[13]),
+	.Q(reg_Z_Z[13]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_Z[12]),
+	.D(reg_Z_Z[12]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -240,11 +228,11 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[12]  (
-	.Q(reg_Z[12]),
+	.Q(reg_Z_Z[12]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_Z[11]),
+	.D(reg_Z_Z[11]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -252,11 +240,11 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[11]  (
-	.Q(reg_Z[11]),
+	.Q(reg_Z_Z[11]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_Z[10]),
+	.D(reg_Z_Z[10]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -264,17 +252,29 @@ wire un1_reg_7 ;
 );
 // @9:33
   SLE \reg[10]  (
-	.Q(reg_Z[10]),
+	.Q(reg_Z_Z[10]),
 	.ADn(GND),
 	.ALn(rst_arst),
 	.CLK(clk_c),
-	.D(reg_Z[9]),
+	.D(reg_Z_Z[9]),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
-// @9:91
+// @9:33
+  SLE \reg[9]  (
+	.Q(reg_Z_Z[9]),
+	.ADn(GND),
+	.ALn(rst_arst),
+	.CLK(clk_c),
+	.D(reg_Z_Z[8]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:70
   CFG4 dp_3_2 (
 	.A(sel_Z[0]),
 	.B(dp_3_2_1_0_Z),
@@ -283,7 +283,7 @@ wire un1_reg_7 ;
 	.Y(dp_c)
 );
 defparam dp_3_2.INIT=16'h46CE;
-// @9:91
+// @9:70
   CFG4 dp_3_2_1_0 (
 	.A(sel_Z[1]),
 	.B(sel_Z[0]),
@@ -292,42 +292,28 @@ defparam dp_3_2.INIT=16'h46CE;
 	.Y(dp_3_2_1_0_Z)
 );
 defparam dp_3_2_1_0.INIT=16'h4657;
-// @9:40
-  CFG2 \p1.un1_reg_6  (
-	.A(reg_Z[13]),
-	.B(reg_Z[11]),
-	.Y(un1_reg_6)
+// @9:38
+  CFG2 \p1.reg_6  (
+	.A(reg_Z_Z[7]),
+	.B(reg_Z_Z[11]),
+	.Y(reg_6)
 );
-defparam \p1.un1_reg_6 .INIT=4'h8;
-// @9:69
+defparam \p1.reg_6 .INIT=4'h8;
+// @9:51
   CFG2 \sel_RNO[0]  (
 	.A(sel_Z[0]),
 	.B(strb_Z),
-	.Y(sel_RNO_Z[0])
+	.Y(sel_3[0])
 );
 defparam \sel_RNO[0] .INIT=4'h6;
-// @9:45
-  CFG2 \p1.reg_8[8]  (
-	.A(reg_Z[13]),
-	.B(reg_Z[7]),
-	.Y(reg_8[8])
+// @9:41
+  CFG2 \p1.reg_2[0]  (
+	.A(reg_Z_Z[7]),
+	.B(reg_Z_Z[13]),
+	.Y(reg_2[0])
 );
-defparam \p1.reg_8[8] .INIT=4'h6;
-// @9:47
-  CFG2 \p1.reg_8[6]  (
-	.A(reg_Z[13]),
-	.B(reg_Z[5]),
-	.Y(reg_8[6])
-);
-defparam \p1.reg_8[6] .INIT=4'h6;
-// @9:49
-  CFG2 \p1.reg_8[1]  (
-	.A(reg_Z[13]),
-	.B(reg_Z[0]),
-	.Y(reg_8[1])
-);
-defparam \p1.reg_8[1] .INIT=4'h6;
-// @9:99
+defparam \p1.reg_2[0] .INIT=4'h6;
+// @9:77
   CFG3 \seg_sel_3[0]  (
 	.A(sel_Z[0]),
 	.B(sw_c[5]),
@@ -335,7 +321,7 @@ defparam \p1.reg_8[1] .INIT=4'h6;
 	.Y(seg_sel[0])
 );
 defparam \seg_sel_3[0] .INIT=8'h27;
-// @9:99
+// @9:77
   CFG3 \seg_sel_3[1]  (
 	.A(sel_Z[0]),
 	.B(sw_c[6]),
@@ -343,7 +329,7 @@ defparam \seg_sel_3[0] .INIT=8'h27;
 	.Y(seg_sel[1])
 );
 defparam \seg_sel_3[1] .INIT=8'h27;
-// @9:99
+// @9:77
   CFG3 \seg_sel_3[2]  (
 	.A(sel_Z[0]),
 	.B(sw_c[7]),
@@ -351,7 +337,7 @@ defparam \seg_sel_3[1] .INIT=8'h27;
 	.Y(seg_sel[2])
 );
 defparam \seg_sel_3[2] .INIT=8'h27;
-// @9:99
+// @9:77
   CFG3 \seg_sel_3[3]  (
 	.A(sel_Z[0]),
 	.B(sw_c[8]),
@@ -359,66 +345,34 @@ defparam \seg_sel_3[2] .INIT=8'h27;
 	.Y(seg_sel[3])
 );
 defparam \seg_sel_3[3] .INIT=8'h27;
-// @9:40
-  CFG4 \p1.un1_reg_9  (
-	.A(reg_Z[12]),
-	.B(reg_Z[10]),
-	.C(reg_Z[9]),
-	.D(reg_Z[8]),
-	.Y(un1_reg_9)
+// @9:38
+  CFG4 \p1.reg_9  (
+	.A(reg_Z_Z[13]),
+	.B(reg_Z_Z[10]),
+	.C(reg_Z_Z[9]),
+	.D(reg_Z_Z[8]),
+	.Y(reg_9)
 );
-defparam \p1.un1_reg_9 .INIT=16'h8000;
-// @9:40
-  CFG4 \p1.un1_reg_8  (
-	.A(reg_Z[7]),
-	.B(reg_Z[6]),
-	.C(reg_Z[5]),
-	.D(reg_Z[4]),
-	.Y(un1_reg_8)
+defparam \p1.reg_9 .INIT=16'h8000;
+// @9:38
+  CFG4 \p1.reg_8  (
+	.A(reg_Z_Z[12]),
+	.B(reg_Z_Z[6]),
+	.C(reg_Z_Z[5]),
+	.D(reg_Z_Z[4]),
+	.Y(reg_8)
 );
-defparam \p1.un1_reg_8 .INIT=16'h8000;
-// @9:40
-  CFG4 \p1.un1_reg_7  (
-	.A(reg_Z[3]),
-	.B(reg_Z[2]),
-	.C(reg_Z[1]),
-	.D(reg_Z[0]),
-	.Y(un1_reg_7)
+defparam \p1.reg_8 .INIT=16'h8000;
+// @9:38
+  CFG4 \p1.reg_7  (
+	.A(reg_Z_Z[3]),
+	.B(reg_Z_Z[2]),
+	.C(reg_Z_Z[1]),
+	.D(reg_Z_Z[0]),
+	.Y(reg_7)
 );
-defparam \p1.un1_reg_7 .INIT=16'h8000;
-// @9:83
-  CFG3 \ena[2]  (
-	.A(sel_Z[1]),
-	.B(sel_Z[0]),
-	.C(rst_c),
-	.Y(digi_c[3])
-);
-defparam \ena[2] .INIT=8'h20;
-// @9:83
-  CFG3 \ena[0]  (
-	.A(sel_Z[1]),
-	.B(sel_Z[0]),
-	.C(rst_c),
-	.Y(digi_c[1])
-);
-defparam \ena[0] .INIT=8'h10;
-// @9:69
-  CFG3 \sel_RNO[1]  (
-	.A(strb_Z),
-	.B(sel_Z[1]),
-	.C(sel_Z[0]),
-	.Y(sel_RNO_Z[1])
-);
-defparam \sel_RNO[1] .INIT=8'h6C;
-// @9:83
-  CFG3 \ena[1]  (
-	.A(sel_Z[1]),
-	.B(sel_Z[0]),
-	.C(rst_c),
-	.Y(digi_c[2])
-);
-defparam \ena[1] .INIT=8'h40;
-// @9:83
+defparam \p1.reg_7 .INIT=16'h8000;
+// @9:64
   CFG3 \ena[3]  (
 	.A(sel_Z[1]),
 	.B(sel_Z[0]),
@@ -426,16 +380,48 @@ defparam \ena[1] .INIT=8'h40;
 	.Y(digi_c[4])
 );
 defparam \ena[3] .INIT=8'h80;
-// @9:40
-  CFG4 \p1.un1_reg  (
-	.A(un1_reg_9),
-	.B(un1_reg_8),
-	.C(un1_reg_7),
-	.D(un1_reg_6),
-	.Y(un1_reg)
+// @9:64
+  CFG3 \ena[2]  (
+	.A(sel_Z[1]),
+	.B(sel_Z[0]),
+	.C(rst_c),
+	.Y(digi_c[3])
 );
-defparam \p1.un1_reg .INIT=16'h8000;
-// @9:121
+defparam \ena[2] .INIT=8'h20;
+// @9:64
+  CFG3 \ena[1]  (
+	.A(sel_Z[1]),
+	.B(sel_Z[0]),
+	.C(rst_c),
+	.Y(digi_c[2])
+);
+defparam \ena[1] .INIT=8'h40;
+// @9:64
+  CFG3 \ena[0]  (
+	.A(sel_Z[1]),
+	.B(sel_Z[0]),
+	.C(rst_c),
+	.Y(digi_c[1])
+);
+defparam \ena[0] .INIT=8'h10;
+// @9:51
+  CFG3 \sel_RNO[1]  (
+	.A(strb_Z),
+	.B(sel_Z[1]),
+	.C(sel_Z[0]),
+	.Y(sel_3[1])
+);
+defparam \sel_RNO[1] .INIT=8'h6C;
+// @9:38
+  CFG4 \p1.reg  (
+	.A(reg_9),
+	.B(reg_8),
+	.C(reg_7),
+	.D(reg_6),
+	.Y(reg_Z)
+);
+defparam \p1.reg .INIT=16'h8000;
+// @9:98
   CFG4 \seg_1_7_1_.m18  (
 	.A(seg_sel[3]),
 	.B(seg_sel[2]),
@@ -444,7 +430,7 @@ defparam \p1.un1_reg .INIT=16'h8000;
 	.Y(seg_c[4])
 );
 defparam \seg_1_7_1_.m18 .INIT=16'h3EDB;
-// @9:121
+// @9:98
   CFG4 \seg_1_7_1_.m10  (
 	.A(seg_sel[3]),
 	.B(seg_sel[2]),
@@ -453,7 +439,7 @@ defparam \seg_1_7_1_.m18 .INIT=16'h3EDB;
 	.Y(seg_c[2])
 );
 defparam \seg_1_7_1_.m10 .INIT=16'h5B37;
-// @9:121
+// @9:98
   CFG4 \seg_1_7_1_.m15  (
 	.A(seg_sel[3]),
 	.B(seg_sel[2]),

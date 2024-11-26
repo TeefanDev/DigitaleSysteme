@@ -1,0 +1,42 @@
+Software Version: 2024.1.0.3
+Programmer 'S20153T4WR' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'S20153T4WR' : FlashPro5
+Opened 'C:\Users\stefa\Desktop\A_Stefan\HTWG\7.Semester\DigitaleSysteme\MeineUebungen\DigitaleSysteme\DigitaleSysteme\designer\aufgabe1\aufgabe1_fp\aufgabe1.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'M2S005'.
+The 'enable_device' command succeeded.
+PPD file 'C:/Users/stefa/Desktop/A_Stefan/HTWG/7.Semester/DigitaleSysteme/MeineUebungen/DigitaleSysteme/DigitaleSysteme/designer/aufgabe1/aufgabe1.ppd' has been loaded successfully.
+DESIGN : aufgabe1;  CHECKSUM : D8B2;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'S20153T4WR' : Scan Chain...
+Programmer 'S20153T4WR' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'S20153T4WR' : Check Chain...
+programmer 'S20153T4WR' : Scan and Check Chain PASSED.
+programmer 'S20153T4WR' : device 'M2S005' : Executing action PROGRAM
+Programmer 'S20153T4WR' : JTAG TCK / SPI SCK frequency = 4 MHz
+programmer 'S20153T4WR' : device 'M2S005' : Family: SmartFusion2
+programmer 'S20153T4WR' : device 'M2S005' : Product:      M2S005
+programmer 'S20153T4WR' : device 'M2S005' : Cortex-M3 Enabled (M3_ALLOWED = 1)
+programmer 'S20153T4WR' : device 'M2S005' : Programming Interface Protocol: JTAG
+programmer 'S20153T4WR' : device 'M2S005' : EXPORT ISC_ENABLE_RESULT[32] = 005f6c24
+programmer 'S20153T4WR' : device 'M2S005' : EXPORT CRCERR[1] = 0
+programmer 'S20153T4WR' : device 'M2S005' : EXPORT EDCERR[1] = 0
+programmer 'S20153T4WR' : device 'M2S005' : Programming FPGA Array...
+programmer 'S20153T4WR' : device 'M2S005' : EXPORT Fabric component digest[256] = 1792f3724af650a43c92cc4e8ee5d60940c4d0b14711f9192a9e522903646103
+programmer 'S20153T4WR' : device 'M2S005' : ===================================================================================
+programmer 'S20153T4WR' : device 'M2S005' : EXPORT DSN[128] = 547f54e678695746636d45904affb670
+programmer 'S20153T4WR' : device 'M2S005' : ===================================================================================
+programmer 'S20153T4WR' : device 'M2S005' : Finished: Tue Nov 26 10:02:48 2024 (Elapsed time 00:00:18)
+programmer 'S20153T4WR' : device 'M2S005' : Executing action PROGRAM PASSED.
+programmer 'S20153T4WR' : Chain programming PASSED.
+Chain Programming Finished: Tue Nov 26 10:02:48 2024 (Elapsed time 00:00:18)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.
