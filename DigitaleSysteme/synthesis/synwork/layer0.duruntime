@@ -1,0 +1,9 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: work, Entity: hex4x7seg, Architecture: struktur
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: aufgabe1, Architecture: struktur
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time

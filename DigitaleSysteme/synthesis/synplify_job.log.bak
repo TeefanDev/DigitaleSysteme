@@ -1,0 +1,85 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "10:38:00    26-Nov-2024",
+	"Working Directory" : "C:/Users/stefa/Desktop/A_Stefan/HTWG/7.Semester/DigitaleSysteme/MeineUebungen/DigitaleSysteme/DigitaleSysteme/synthesis",
+	"Install" : "C:/Microchip/Libero_SoC_v2024.1/SynplifyPro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "10:37:51",
+   "Runtime" : "09s",
+   "Executable Run Time" : "07s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "10:37:51",
+      "Runtime" : "09s",
+      "Executable Run Time" : "07s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "10:37:51",
+         "Runtime" : "04s",
+         "Executable Run Time" : "03s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "10:37:51",
+            "Runtime" : "02s",
+            "Executable Run Time" : "01s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/Users/stefa/Desktop/A_Stefan/HTWG/7.Semester/DigitaleSysteme/MeineUebungen/DigitaleSysteme/DigitaleSysteme/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:37:51",
+               "Run Time" : "02s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/Users/stefa/Desktop/A_Stefan/HTWG/7.Semester/DigitaleSysteme/MeineUebungen/DigitaleSysteme/DigitaleSysteme/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:37:53",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "C:/Users/stefa/Desktop/A_Stefan/HTWG/7.Semester/DigitaleSysteme/MeineUebungen/DigitaleSysteme/DigitaleSysteme/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "10:37:53",
+            "Run Time" : "02s",
+            "Exe Run Time" : "02s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "10:37:56",
+         "Runtime" : "04s",
+         "Executable Run Time" : "04s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "C:/Users/stefa/Desktop/A_Stefan/HTWG/7.Semester/DigitaleSysteme/MeineUebungen/DigitaleSysteme/DigitaleSysteme/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "10:37:56",
+            "Run Time" : "04s",
+            "Exe Run Time" : "04s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}
